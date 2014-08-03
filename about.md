@@ -3,28 +3,9 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+This page belongs to Dinkar Pundir, a veteran chipmonk, who currently is under the mission to understand how humans do what they do. When he is not staring at the walls or giggling after throwing water at kittens, he likes to think up of plans to rule the world. More or less his strategy till now has been to wait for all the humans to willingly surrender themselfes, but that might not happen anytime soon. Till then he has planned to reside in Noida, working for a company known to the world as Proptiger.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Feel free to contact him at {{site.email}}. Nay, I insist that you do contact him. Pretty pwease! Pretty. Pwease.
 
-There are currently two themes built on Poole:
+His Twitter handle is @{{site.twitter_username}}. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
