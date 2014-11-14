@@ -3,7 +3,7 @@ layout: post
 title: Automount media in Linux
 ---
 
-The /etc/fstab (File system table) keeps a record of the medias that are mounted in the linux partition. A usual record in fstab looks like 
+The [/etc/fstab (File system table)](http://en.wikipedia.org/wiki/Fstab) keeps a record of the medias that are mounted in the linux partition. A usual record in fstab looks like 
 #device spec		  mount-point		    fs-type	   options    dump   pass
 UUID=a888518e-8f3c-4bcd   /media/<partition-name>   ext3           defaults   1      0
 
