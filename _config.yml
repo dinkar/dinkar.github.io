@@ -16,7 +16,7 @@ author:
   name:           Dinkar Pundir
   url:            https://twitter.com/dinkarpundir
 
-paginate:         5
+paginate:         1
 
 # Custom vars
 github:
@@ -24,3 +24,6 @@ github:
 twitter_username: dinkarpundir
 facebook_username: dinkar.pundir
 email: dinkar@dpundir.com
+
+#Gems
+gems: [jekyll-paginate]
