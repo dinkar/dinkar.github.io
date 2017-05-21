@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:	  pygments
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -23,7 +23,7 @@ github:
   repo:           https://github.com/dinkar
 twitter_username: dinkarpundir
 facebook_username: dinkar.pundir
-email: dinkar@dpundir.com
+email:            dinkar@dpundir.com
 
 #Gems
-gems: [jekyll-paginate]
+gems:             [jekyll-paginate]

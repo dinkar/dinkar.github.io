@@ -10,6 +10,7 @@ title: Home
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
+      <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}" style="font-size: medium;"></span>
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
