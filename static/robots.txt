@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://dinkar.github.io/sitemap.xml
