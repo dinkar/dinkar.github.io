@@ -25,4 +25,5 @@ module.exports = {
   headerFontFamily: 'Bitter',
   bodyFontFamily: 'Open Sans',
   baseFontSize: '18px',
+  disqusShortName: 'dpundir'
 };

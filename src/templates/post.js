@@ -7,6 +7,7 @@ import kebabCase from 'lodash/kebabCase';
 import { Layout, Wrapper, Header, Subline, SEO, PrevNext } from 'components';
 import { media } from '../utils/media';
 import config from '../../config/SiteConfig';
+import Disqus from 'disqus-react';
 import '../utils/prismjs-theme.css';
 
 const Content = styled.article`
@@ -38,6 +39,12 @@ const Post = props => {
   const { slug, prev, next } = props.pageContext;
   const postNode = props.data.markdownRemark;
   const post = postNode.frontmatter;
+  const disqusConfig = {
+    url: `${config.siteUrl}/${slug}`,
+    identifier: slug,
+    title: post.title
+  };
+  const disqusShortname = config.disqusShortName;
 
   return (
     <Layout>
@@ -51,10 +58,13 @@ const Post = props => {
           <Title>{post.title}</Title>
           <Subline>
             {post.date} &mdash; {postNode.timeToRead} Min Read &mdash; In{' '}
-            <Link to={`/categories/${kebabCase(post.category)}`}>{post.category}</Link>
+            <Link to={`/categories/${kebabCase(post.category)}`}>{post.category}</Link> &mdash; <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}>
+              0 Comments
+            </Disqus.CommentCount>
           </Subline>
           <PostContent dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <PrevNext prev={prev} next={next} />
+          <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
         </Content>
       </Wrapper>
     </Layout>
