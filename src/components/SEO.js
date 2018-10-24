@@ -78,6 +78,18 @@ const SEO = props => {
       <meta name="description" content={description} />
       <meta name="image" content={image} />
       <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
+      <script type="text/javascript">
+        (function(p,u,s,h){
+          p._pcq = p._pcq || [];
+          p._pcq.push(['_currentTime',Date.now()]);
+          s=u.createElement('script');
+          s.type='text/javascript';
+          s.async=true;
+          s.src='https://cdn.pushcrew.com/js/0cf77fea8cae72092d419a521410ef69.js';
+          h=u.getElementsByTagName('script')[0];
+          h.parentNode.insertBefore(s,h);
+        })(window,document);
+      </script>
       <meta property="og:locale" content={config.ogLanguage} />
       <meta property="og:site_name" content={config.ogSiteName ? config.ogSiteName : ''} />
       <meta property="og:url" content={postSEO ? postURL : blogURL} />
