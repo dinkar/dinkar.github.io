@@ -92,19 +92,18 @@ const SEO = props => {
       <meta name="twitter:url" content={config.siteUrl} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
-      <script dangerouslySetInnerHTML={{
-        __html: `
-        (function(p,u,s,h){
+      <script>
+        {`(function(p,u,s,h){
           p._pcq = p._pcq || [];
           p._pcq.push(['_currentTime',Date.now()]);
-          s=u.createElement('script');
-          s.type='text/javascript';
-          s.async=true;
-          s.src='https://cdn.pushcrew.com/js/0cf77fea8cae72092d419a521410ef69.js';
-          h=u.getElementsByTagName('script')[0];
-          h.parentNode.insertBefore(s,h);
-        })(window,document);
-        `}} />
+        s=u.createElement('script');
+        s.type='text/javascript';
+        s.async=true;
+        s.src='https://cdn.pushcrew.com/js/0cf77fea8cae72092d419a521410ef69.js';
+        h=u.getElementsByTagName('script')[0];
+        h.parentNode.insertBefore(s,h);
+      })(window,document);`}
+      </script>
     </Helmet>
   );
 };
